@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --dark-cyan: #oe8784;
+  --dark-grey-blue: #333d4b;
+  --pale-orange: #fdd6ba;
+  --light-cream-bg: #fefcf7;
+  --grey: #83888f;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Fraunces-Black';
+  src: url('../fonts/Fraunces/static/Fraunces_144pt-Black.ttf');
+  format: 'true-type';
+}
+
+/* Base Styles */
+h1 {
+  font-family: 'Fraunces-Black';
+}
