@@ -18,6 +18,18 @@
   format: 'true-type';
 }
 
+@font-face {
+  font-family: 'Barlow-Regular';
+  src: url('../fonts/Barlow/Barlow-Regular.ttf');
+  format: 'true-type';
+}
+
+@font-face {
+  font-family: 'Barlow-Bold';
+  src: url('../fonts/Barlow/Barlow-Bold.ttf');
+  format: 'true-type';
+}
+
 /* Base Styles */
 h1 {
   font-family: 'Fraunces-Black';
@@ -49,9 +61,49 @@ p {
   line-height: 1.625rem;
 }
 
+/* Navigation */
+.top-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.main-nav-list {
+  display: flex;
+  margin-left: 22rem;
+}
+
+.main-nav-list li {
+  font-family: 'Barlow-Bold';
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 2rem;
+  text-transform: uppercase;
+}
+
 .main-nav-list a {
   font-family: 'Barlow-Bold';
   font-size: 0.75rem;
   line-height: 0.9375rem;
   letter-spacing: 1;
+  text-decoration: none;
+  color: var(--dark-grey-blue);
+}
+
+.logo {
+  margin: 1rem 25rem 0 7rem;
+}
+
+/* Headers */
+.home-page-header {
+  height: 35rem;
+  width: 84%;
+  margin: 2rem auto;
+  background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
+    0 0;
+  background-color: var(--dark-grey-blue);
+  background-position: bottom;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: separate;
 }
