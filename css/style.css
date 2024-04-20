@@ -4,7 +4,7 @@
 }
 
 :root {
-  --dark-cyan: #oe8784;
+  --dark-cyan: #0e8784;
   --dark-grey-blue: #333d4b;
   --pale-orange: #fdd6ba;
   --light-cream-bg: #fefcf7;
@@ -96,8 +96,8 @@ p {
 
 /* Headers */
 .home-page-header {
-  height: 35rem;
-  width: 84%;
+  height: 37rem;
+  width: 82%;
   margin: 2rem auto;
   background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
     0 0;
@@ -106,4 +106,27 @@ p {
   border-radius: 10px;
   overflow: hidden;
   border-collapse: separate;
+}
+
+.header-info {
+  margin: 5rem 4rem;
+}
+
+.header-info h1 {
+  width: 38%;
+  color: var(--light-cream-bg);
+}
+
+.header-info p {
+  width: 34%;
+  color: var(--light-cream-bg);
+  margin: 2rem 0;
+}
+
+.plan-btn {
+  padding: 1rem 3rem;
+  background-color: var(--dark-cyan);
+  color: var(--light-cream-bg);
+  border-radius: 5px;
+  margin-top: 1rem;
 }
