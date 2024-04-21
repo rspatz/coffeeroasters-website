@@ -128,6 +128,39 @@ a {
   margin: 2rem 0;
 }
 
+.about-header {
+  height: 27rem;
+  width: 82%;
+  margin: 2rem auto;
+  background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
+    0 0;
+  background-color: var(--dark-grey-blue);
+  background-position: bottom;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: separate;
+}
+
+.about-header h2,
+.plan-header h2 {
+  font-size: 3rem;
+  color: var(--light-cream-bg);
+  padding-top: 2rem;
+}
+
+.plan-header {
+  height: 27rem;
+  width: 82%;
+  margin: 2rem auto;
+  background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
+    0 0;
+  background-color: var(--dark-grey-blue);
+  background-position: bottom;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: separate;
+}
+
 .plan-btn {
   padding: 1rem 3rem;
   background-color: var(--dark-cyan);
