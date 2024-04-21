@@ -132,8 +132,8 @@ a {
   height: 27rem;
   width: 82%;
   margin: 2rem auto;
-  background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
-    0 0;
+  background: url('../assets/about/desktop/image-hero-whitecup.jpg') no-repeat 0
+    0;
   background-color: var(--dark-grey-blue);
   background-position: bottom;
   border-radius: 10px;
@@ -152,8 +152,8 @@ a {
   height: 27rem;
   width: 82%;
   margin: 2rem auto;
-  background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
-    0 0;
+  background: url('../assets/plan/desktop/image-hero-blackcup.jpg') no-repeat 0
+    0;
   background-color: var(--dark-grey-blue);
   background-position: bottom;
   border-radius: 10px;
