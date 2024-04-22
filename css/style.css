@@ -354,19 +354,53 @@ a {
 .img-left {
   background: url('../assets/about/desktop/image-commitment.jpg') no-repeat 0 0;
   background-color: var(--dark-grey-blue);
-  background-position: bottom;
+  background-position: top;
   border-radius: 5px;
-  height: 32rem;
+  height: 30rem;
   width: 35%;
 }
 
 .copy-right {
   width: 44%;
-  margin: 6rem 0 0 10rem;
+  margin: 4rem 0 0 10rem;
 }
 
 .copy-right h2 {
   margin-bottom: 2rem;
+}
+
+/* About Page: Quality Section */
+.quality {
+  display: flex;
+  height: 27rem;
+  width: 82%;
+  margin: 2rem auto;
+  background-color: var(--dark-grey-blue);
+  border-radius: 5px;
+}
+
+.quality-container {
+  display: flex;
+}
+
+.copy-left {
+  width: 40%;
+  margin: 6rem 8rem 0 6rem;
+  color: var(--light-cream-bg);
+}
+
+.copy-left h2 {
+  margin-bottom: 2rem;
+}
+
+.img-right {
+  background: url('../assets/about/desktop/image-commitment.jpg') no-repeat 0 0;
+  background-color: var(--dark-grey-blue);
+  background-position: bottom;
+  border-radius: 5px;
+  height: 30rem;
+  width: 35%;
+  margin-top: -8rem;
 }
 
 /* Footer */
