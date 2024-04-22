@@ -291,16 +291,17 @@ a {
 }
 
 .steps-title {
-  margin: 0 0 0 16rem;
+  margin: 0 0 0 17rem;
   color: var(--grey);
 }
 
 .steps-container {
   display: flex;
-  height: 35rem;
+  height: 23rem;
   width: 82%;
   margin: 5rem auto;
-  margin-left: 16rem;
+  margin-left: 17rem;
+  margin-bottom: 0;
 }
 
 .steps-card-1,
@@ -329,7 +330,7 @@ a {
 .steps-card-1 p,
 .steps-card-2 p,
 .steps-card-3 p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   width: 87%;
 }
 
@@ -346,7 +347,8 @@ a {
   background: var(--dark-grey-blue);
   height: 7rem;
   width: 82%;
-  margin: 3rem auto;
+  margin: 4rem auto;
+  margin-top: 12rem;
 }
 
 .bottom-container {
