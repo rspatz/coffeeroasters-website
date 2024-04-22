@@ -342,6 +342,33 @@ a {
   margin-top: 4rem;
 } */
 
+/* About Page: Commitment Section */
+.commitment {
+  display: flex;
+  height: 35rem;
+  width: 75%;
+  margin: 10rem auto;
+  margin-left: 13rem;
+}
+
+.img-left {
+  background: url('../assets/about/desktop/image-commitment.jpg') no-repeat 0 0;
+  background-color: var(--dark-grey-blue);
+  background-position: bottom;
+  border-radius: 5px;
+  height: 32rem;
+  width: 35%;
+}
+
+.copy-right {
+  width: 44%;
+  margin: 6rem 0 0 10rem;
+}
+
+.copy-right h2 {
+  margin-bottom: 2rem;
+}
+
 /* Footer */
 .footer {
   background: var(--dark-grey-blue);
