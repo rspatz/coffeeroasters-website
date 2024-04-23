@@ -99,6 +99,17 @@ a {
   margin: 1rem 25rem 0 9rem;
 }
 
+/* Navigation: Mobile */
+@media only screen and (max-width: 600px) {
+  .top-container {
+    display: none;
+  }
+
+  .logo {
+    margin: 0;
+  }
+}
+
 /* Headers */
 .home-page-header {
   height: 35rem;
@@ -167,6 +178,99 @@ a {
   color: var(--light-cream-bg);
   border-radius: 5px;
   margin-top: 1rem;
+}
+
+.plan-btn a {
+  font-size: 1rem;
+}
+
+/* Home Page: Header, Mobile */
+@media only screen and (max-width: 600px) {
+  .home-page-header {
+    height: 42rem;
+    width: 90%;
+    margin: 7rem auto;
+    margin-left: 2.5rem;
+    background: url('../assets/home/mobile/image-hero-coffeepress.jpg')
+      no-repeat 0 0;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    border-collapse: separate;
+  }
+
+  .header-info {
+    margin: 1rem auto;
+  }
+
+  .header-info h1 {
+    font-size: 3.5rem;
+    width: 85%;
+    margin: 7rem auto;
+    margin-bottom: 2rem;
+    color: var(--light-cream-bg);
+    text-align: center;
+  }
+
+  .header-info p {
+    font-size: 1.25rem;
+    width: 95%;
+    color: var(--light-cream-bg);
+    opacity: 75%;
+    margin: 2rem 0;
+    text-align: center;
+    line-height: 2.25rem;
+  }
+
+  .home-page-header .plan-btn {
+    padding: 1.5rem 4rem;
+    background-color: var(--dark-cyan);
+    color: var(--light-cream-bg);
+    border-radius: 10px;
+    width: 65%;
+    margin: 1rem 4.5rem;
+  }
+
+  .about-header {
+    height: 27rem;
+    width: 82%;
+    margin: 2rem auto;
+    background: url('../assets/about/desktop/image-hero-whitecup.jpg') no-repeat
+      0 0;
+    background-color: var(--dark-grey-blue);
+    background-position: bottom;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+  }
+
+  .about-header h2,
+  .plan-header h2 {
+    font-size: 3rem;
+    color: var(--light-cream-bg);
+    padding-top: 2rem;
+  }
+
+  .plan-header {
+    height: 27rem;
+    width: 82%;
+    margin: 2rem auto;
+    background: url('../assets/plan/desktop/image-hero-blackcup.jpg') no-repeat
+      0 0;
+    background-color: var(--dark-grey-blue);
+    background-position: bottom;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+  }
+
+  .plan-btn {
+    padding: 1rem 3rem;
+    background-color: var(--dark-cyan);
+    color: var(--light-cream-bg);
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
 }
 
 /* Home Page: Collection Section */
@@ -489,3 +593,7 @@ a {
 .social img {
   margin-left: 1rem;
 }
+
+/* Media Queries */
+/* Tablet */
+/* @media only screen and (min-width: 600px)  */
