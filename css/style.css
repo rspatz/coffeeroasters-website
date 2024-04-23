@@ -164,6 +164,7 @@ a {
   margin: 2rem 0;
 }
 
+/* About Header */
 .about-header {
   height: 27rem;
   width: 82%;
@@ -183,6 +184,17 @@ a {
   color: var(--light-cream-bg);
   padding-top: 2rem;
 }
+
+.header-info h2 {
+  font-size: 3rem;
+  width: 90%;
+  margin: 6rem auto;
+  margin-bottom: 2rem;
+  color: var(--light-cream-bg);
+  text-align: center;
+}
+
+/* Plan Header */
 
 .plan-header {
   height: 27rem;
@@ -209,14 +221,40 @@ a {
   font-size: 1rem;
 }
 
+/* About Header: Mobile */
+@media only screen and (max-width: 600px) {
+  .about-header {
+    height: 35rem;
+    width: 85%;
+    margin: 2rem auto;
+    margin-top: -12rem;
+    margin-left: 2rem;
+    background: url('../assets/about/mobile/image-hero-whitecup.jpg') no-repeat
+      0 0;
+    background-color: var(--dark-grey-blue);
+    background-position: top;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+  }
+
+  .about-header h2,
+  .plan-header h2 {
+    font-size: 3rem;
+    color: var(--light-cream-bg);
+    padding-top: 2rem;
+    text-align: center;
+  }
+}
+
 /* Home Page Header, Mobile */
 @media only screen and (max-width: 600px) {
   .home-page-header {
-    height: 50rem;
-    width: 90%;
+    height: 45rem;
+    width: 85%;
     margin: 7rem auto;
     margin-top: -12rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     background: url('../assets/home/mobile/image-hero-coffeepress.jpg')
       no-repeat 0 0;
     background-size: cover;
@@ -232,18 +270,18 @@ a {
   .header-info h1 {
     font-size: 3rem;
     width: 90%;
-    margin: 7rem auto;
+    margin: 6rem auto;
     margin-bottom: 2rem;
     color: var(--light-cream-bg);
     text-align: center;
   }
 
   .header-info p {
-    font-size: 1rem;
-    width: 95%;
+    font-size: 1.15rem;
+    width: 85%;
     color: var(--light-cream-bg);
     opacity: 75%;
-    margin: 2rem 0;
+    margin: 2rem auto;
     text-align: center;
     line-height: 2.25rem;
   }
@@ -256,27 +294,6 @@ a {
     width: 90%;
     margin: 1rem 1.5rem;
   }
-}
-
-/* About Header */
-.about-header {
-  height: 27rem;
-  width: 82%;
-  margin: 2rem auto;
-  background: url('../assets/about/desktop/image-hero-whitecup.jpg') no-repeat 0
-    0;
-  background-color: var(--dark-grey-blue);
-  background-position: bottom;
-  border-radius: 10px;
-  overflow: hidden;
-  border-collapse: separate;
-}
-
-.about-header h2,
-.plan-header h2 {
-  font-size: 3rem;
-  color: var(--light-cream-bg);
-  padding-top: 2rem;
 }
 
 /* Plan Header */
