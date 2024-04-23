@@ -75,7 +75,7 @@ a {
 
 .main-nav-list {
   display: flex;
-  margin-left: 19rem;
+  margin-left: 16rem;
 }
 
 .main-nav-list li {
@@ -104,6 +104,11 @@ a {
   .top-container {
     display: none;
   }
+
+  /* .main-nav-list {
+    flex-direction: column;
+    margin-left: 0;
+  } */
 
   .logo {
     margin: 0;
@@ -441,6 +446,95 @@ a {
 
 .cta-text h4 {
   margin-bottom: 1rem;
+}
+
+/* Home Page: Choose Section */
+@media only screen and (max-width: 600px) {
+  .choose {
+    height: 63rem;
+    width: 82%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: var(--dark-grey-blue);
+    background-position: bottom;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+  }
+
+  .choose-text {
+    width: 90%;
+    margin: 4rem auto;
+    text-align: center;
+    color: var(--light-cream-bg);
+  }
+
+  .choose-text h3 {
+    margin-bottom: 2rem;
+  }
+
+  .choose-text p {
+    font-size: 1.15rem;
+    line-height: 1.65;
+  }
+
+  /* Home Page: CTA Cards */
+  .cta-cards {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+
+  ..cta-cards icon {
+    margin-left: 10rem;
+  }
+
+  .cta-1,
+  .cta-2,
+  .cta-3 {
+    height: 26rem;
+    width: 80%;
+    margin-right: 0;
+    background-color: var(--dark-cyan);
+    border-radius: 5px;
+  }
+
+  .cta-1 {
+    margin: -43rem 0 5rem 2.5rem;
+  }
+
+  .cta-2 {
+    margin: -3.5rem 0 5rem 2.5rem;
+  }
+
+  .cta-3 {
+    margin: -3.5rem 0 5rem 2.5rem;
+  }
+
+  .cta-3 .cta-icon {
+    margin-top: 4rem;
+  }
+
+  .cta-icon {
+    width: 25%;
+    margin: 3rem auto;
+  }
+
+  .cta-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--light-cream-bg);
+  }
+
+  .cta-text h4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-text p {
+    font-size: 1.25rem;
+  }
 }
 
 /* Home Page: Steps Section */
