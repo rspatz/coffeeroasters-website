@@ -109,9 +109,9 @@ a {
 
   .main-nav-list {
     flex-direction: column;
-    margin: 2rem 0 0 1rem;
+    margin: 2rem auto;
     background-color: #e4e5e7;
-    padding: 2rem 5rem 18rem 5rem;
+    padding: 2rem 5rem 14rem 6rem;
     border-radius: 10px;
   }
 
@@ -126,8 +126,8 @@ a {
 
   .main-nav-list a {
     font-family: 'Barlow-Bold';
-    font-size: 1rem;
-    line-height: 3rem;
+    font-size: 1.15rem;
+    line-height: 2.25rem;
   }
 
   .logo {
@@ -215,6 +215,7 @@ a {
     height: 50rem;
     width: 90%;
     margin: 7rem auto;
+    margin-top: -12rem;
     margin-left: 1rem;
     background: url('../assets/home/mobile/image-hero-coffeepress.jpg')
       no-repeat 0 0;
@@ -364,7 +365,7 @@ a {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     width: 90%;
-    margin: 0 0 1rem 4rem;
+    margin: 0 0 1rem 2.75rem;
     color: var(--grey);
     opacity: 0.45;
     mask-image: none;
@@ -678,7 +679,7 @@ a {
   }
 
   .steps .plan-btn {
-    margin: 50rem auto;
+    margin: 45rem auto;
     margin-bottom: 0;
     margin-left: 8rem;
   }
@@ -842,7 +843,7 @@ a {
     background: var(--dark-grey-blue);
     height: 24rem;
     width: 85%;
-    margin: 10rem 3rem 4rem 3rem;
+    margin: 8rem 3rem 4rem 3rem;
   }
 
   .bottom-container {
