@@ -102,16 +102,36 @@ a {
 /* Navigation: Mobile */
 @media only screen and (max-width: 600px) {
   .top-container {
-    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
   }
 
-  /* .main-nav-list {
+  .main-nav-list {
     flex-direction: column;
-    margin-left: 0;
-  } */
+    margin: 2rem 0 0 1rem;
+    background-color: #e4e5e7;
+    padding: 2rem 5rem 18rem 5rem;
+    border-radius: 10px;
+  }
+
+  .main-nav-list li {
+    font-family: 'Barlow-Bold';
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 1rem 0 0 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .main-nav-list a {
+    font-family: 'Barlow-Bold';
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
 
   .logo {
-    margin: 0;
+    margin: 0 auto;
   }
 }
 
@@ -195,7 +215,7 @@ a {
     height: 42rem;
     width: 90%;
     margin: 7rem auto;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     background: url('../assets/home/mobile/image-hero-coffeepress.jpg')
       no-repeat 0 0;
     background-size: cover;
