@@ -138,7 +138,7 @@ a {
 /* Headers */
 .home-page-header {
   height: 35rem;
-  width: 82%;
+  width: 82.5%;
   margin: 2rem auto;
   background: url('../assets/home/desktop/image-hero-coffeepress.jpg') no-repeat
     0 0;
@@ -729,6 +729,37 @@ a {
   margin-bottom: 2rem;
 }
 
+/* About Page: Commitment Section, Mobile */
+@media only screen and (max-width: 600px) {
+  .commitment {
+    flex-direction: column;
+    height: 75rem;
+    width: 82.5%;
+    margin: 10rem auto;
+    margin-left: 1rem;
+  }
+
+  .img-left {
+    background: url('../assets/about/mobile/image-commitment.jpg') no-repeat 0 0;
+    background-color: var(--dark-grey-blue);
+    background-size: cover;
+    margin-left: 1.5rem;
+    border-radius: 10px;
+    height: 50rem;
+    width: 100%;
+  }
+
+  .copy-right {
+    width: 93%;
+    margin: 4rem 0 0 2rem;
+    text-align: center;
+  }
+
+  .copy-right h2 {
+    margin-bottom: 2rem;
+  }
+}
+
 /* About Page: Quality Section */
 .quality {
   display: flex;
@@ -761,6 +792,43 @@ a {
   height: 30rem;
   width: 35%;
   margin-top: -8rem;
+}
+
+/* About Page: Quality Section, Mobile */
+@media only screen and (max-width: 600px) {
+  .quality {
+    flex-direction: column;
+    height: 40rem;
+    width: 82.5%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  .quality-container {
+    flex-direction: column-reverse;
+  }
+
+  .copy-left {
+    width: 90%;
+    margin: 6rem 8rem 0 1rem;
+    color: var(--light-cream-bg);
+  }
+
+  .copy-left h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .img-right {
+    background: url('../assets/about/mobile/image-quality.jpg') no-repeat 0 0;
+    background-size: cover;
+    background-position: middle;
+    border-radius: 10px;
+    height: 12rem;
+    width: 90%;
+    margin-top: -6rem;
+    margin-left: 1.15rem;
+  }
 }
 
 /* Location Section */
@@ -801,6 +869,57 @@ a {
   height: 15rem;
   width: 30%;
   margin: 4rem 0;
+}
+
+/* About Page: Location Section, Mobile */
+@media only screen and (max-width: 600px) {
+  .location {
+    display: flex;
+    flex-direction: column;
+    height: 80rem;
+    width: 85%;
+    margin: 8rem auto;
+  }
+
+  .location-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+  }
+
+  .location-headline h4 {
+    margin-left: 5rem;
+    color: var(--grey);
+  }
+
+  .location-cards {
+    flex-direction: column;
+  }
+
+  .location-cards img {
+    width: 25%;
+    margin: 2rem 0 3rem 5rem;
+  }
+
+  .location-cards h3 {
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .location-cards li {
+    list-style-type: none;
+    line-height: 2rem;
+    margin: 0 4rem;
+    width: 90%;
+  }
+
+  .location-card-1,
+  .location-card-2,
+  .location-card-3 {
+    height: 15rem;
+    width: 90%;
+    margin: 6rem 0;
+  }
 }
 
 /* Footer */
@@ -860,7 +979,7 @@ a {
     background: var(--dark-grey-blue);
     height: 24rem;
     width: 85%;
-    margin: 8rem 3rem 4rem 3rem;
+    margin: 8rem 3rem 4rem 2rem;
   }
 
   .bottom-container {
