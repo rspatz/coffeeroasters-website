@@ -921,7 +921,7 @@ a {
   }
 }
 
-/* Plan Page */
+/* Plan Page: Steps */
 .plan-steps {
   background-color: var(--dark-grey-blue);
   width: 82%;
@@ -968,6 +968,81 @@ a {
   margin-bottom: 0;
   width: 87%;
   color: var(--light-cream-bg);
+}
+
+/* Plan Page: Steps: Mobile */
+@media only screen and (max-width: 600px) {
+  /* Plan Page: Header */
+  .plan-header {
+    height: 27rem;
+    width: 85%;
+    margin: 2rem auto;
+    margin-top: -12rem;
+    background: url('../assets/plan/mobile/image-hero-blackcup.jpg') no-repeat 0
+      0;
+    background-color: var(--dark-grey-blue);
+    background-position: center;
+    background-position: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: separate;
+  }
+
+  .plan-header .header-info {
+    width: 96%;
+  }
+
+  .plan-steps {
+    background-color: var(--dark-grey-blue);
+    width: 100%;
+    margin: 8rem auto;
+    padding: 0;
+    padding-top: 10rem;
+    border-radius: 10px;
+  }
+
+  .plan-steps-container {
+    flex-direction: column;
+    height: 65rem;
+    width: 82%;
+    margin: 0 auto;
+  }
+
+  .plan-steps-card-1,
+  .plan-steps-card-2,
+  .plan-steps-card-3 {
+    height: 20rem;
+    width: 95%;
+    margin: 0 2rem 5rem 0;
+    text-align: center;
+  }
+
+  .plan-steps-card-1 h2,
+  .plan-steps-card-2 h2,
+  .plan-steps-card-3 h2 {
+    margin-bottom: 2rem;
+    color: var(--pale-orange);
+    font-size: 5rem;
+    width: 95%;
+  }
+
+  .plan-steps-card-1 h3,
+  .plan-steps-card-2 h3,
+  .plan-steps-card-3 h3 {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 85%;
+    color: var(--light-cream-bg);
+  }
+
+  .plan-steps-card-1 p,
+  .plan-steps-card-2 p,
+  .plan-steps-card-3 p {
+    margin: 0 auto;
+    margin-bottom: 0;
+    width: 95%;
+    color: var(--light-cream-bg);
+  }
 }
 
 /* Footer */
