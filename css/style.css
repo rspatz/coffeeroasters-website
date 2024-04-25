@@ -1052,6 +1052,61 @@ a {
   }
 }
 
+/* Plan Page: Questions accordian section */
+.plan-page-steps {
+  height: 40rem;
+  margin-bottom: 40rem;
+}
+
+.question-title h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.questions-right {
+  margin-left: 22rem;
+}
+
+.questions-right-1,
+.questions-right-2,
+.questions-right-3,
+.questions-right-4,
+.questions-right-5 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 20rem;
+  margin-bottom: 10rem;
+}
+
+.question-responses {
+  display: flex;
+}
+
+.questions-card-1,
+.questions-card-2,
+.questions-card-3 {
+  height: 16rem;
+  width: 30%;
+  background-color: lightblue;
+  margin: 2rem 1rem 0 0;
+  border-radius: 10px;
+}
+
+.questions-card-1 h4,
+.questions-card-2 h4,
+.questions-card-3 h4 {
+  margin: 1.5rem 0 1rem 1rem;
+}
+
+.questions-card-1 p,
+.questions-card-2 p,
+.questions-card-3 p {
+  font-size: 1.1rem;
+  width: 85%;
+  margin-left: 1rem;
+}
+
 /* Footer */
 .footer {
   background: var(--dark-grey-blue);
