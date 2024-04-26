@@ -1054,17 +1054,41 @@ a {
 
 /* Plan Page: Questions accordian section */
 .plan-page-steps {
-  height: 40rem;
+  height: 100rem;
   margin-bottom: 40rem;
 }
 
+.plan-steps-left {
+  font-size: 1.25rem;
+  width: 40%;
+  margin: 1rem 0 0 0;
+}
+
+.plan-steps-left li {
+  font-family: 'Fraunces-Black';
+  color: var(--grey);
+  list-style-type: none;
+  line-height: 4.25rem;
+  cursor: pointer;
+}
+
+.plan-steps-left li:hover {
+  color: var(--dark-grey-blue);
+}
+
+span {
+  margin-right: 1rem;
+  color: var(--dark-cyan);
+}
+
 .question-title h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+  color: var(--grey);
 }
 
 .questions-right {
-  margin-left: 22rem;
+  margin-left: 18rem;
 }
 
 .questions-right-1,
@@ -1088,9 +1112,20 @@ a {
 .questions-card-3 {
   height: 16rem;
   width: 30%;
-  background-color: lightblue;
+  background-color: #e4e5e7;
   margin: 2rem 1rem 0 0;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.questions-card-1:hover,
+.questions-card-2:hover,
+.questions-card-3:hover,
+.questions-card-1:active,
+.questions-card-2:active,
+.questions-card-3:active {
+  background-color: var(--dark-cyan);
+  color: var(--light-cream-bg);
 }
 
 .questions-card-1 h4,
