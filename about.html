@@ -16,13 +16,21 @@
   </head>
 
   <body>
-    <div class="top-container">
+    <div class="top-container" id="top-container">
       <div class="logo">
         <img src="./assets/shared/desktop/logo.svg" alt="logo" />
       </div>
 
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="main-nav-list"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
       <nav class="main-nav">
-        <ul class="main-nav-list">
+        <ul id="main-nav-list" data-visible="false" class="main-nav-list">
           <li><a class="main-nav-link" href="index.html">Home</a></li>
           <li><a class="main-nav-link" href="about.html">About us</a></li>
           <li>
@@ -30,12 +38,6 @@
           </li>
         </ul>
       </nav>
-
-      <!-- <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-
-        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-      </button> -->
     </div>
 
     <header class="about-header">
@@ -168,5 +170,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
